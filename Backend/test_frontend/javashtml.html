@@ -1,0 +1,42 @@
+<html>
+<head>
+<link href="javashtml.css" rel="stylesheet" type="text/css">
+<title>Frontend</title>
+<script src="javashtml.js">
+
+
+</script>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+</head>
+<body id="iddd">
+  <label id="From" />Simple js to c#<br />
+    <table>
+        <tr>
+            <td><label id="From"/>From : </td>
+            <td><input id="TxtFrom"></td>
+        </tr>
+        <tr>
+            <td><label id="To"/>To : </td>
+            <td><input id="TxtTo" required="required"></td>
+        </tr>
+        <tr>
+            <td><label id="To" />Body : </td>
+            <td><textarea id="TxtBody" required="required" 
+
+            rows="10" cols="30"></textarea></td>
+        </tr>
+        <tr>
+            <td/>
+            <td style="align-content:flex-end">
+                <button onclick="loadJsonData();">Send Data to the Server</button>
+            </td>
+			<td style="align-content:flex-end">
+                <button onclick="getdata();">Get all rows</button>
+            </td>
+        </tr>
+</table>
+<table id="objects">
+
+</table>
+
+</body>
