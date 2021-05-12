@@ -43,7 +43,7 @@
     "js-yaml": "^3.13.1",
     "lodash.template": "^4.5.0",
     "mem": "^4.3.0",
-    "merge": "^1.2.1",
+    "merge": "^2.1.1",
     "mixin-deep": "^2.0.1",
     "prop-types": "^15.7.2",
     "react": "^16.4.2",
